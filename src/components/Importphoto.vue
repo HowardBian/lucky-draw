@@ -35,7 +35,7 @@
       <span v-else>Not selected</span>
     </el-row>
     <el-row>
-      Supports jpg and png no larger than 150kb, 20-50kb recommanded，160*160px is the recommanded dimensions
+      Photo must be less than 150kb, recommanded dimensions: 160*160px
     </el-row>
     <el-row class="center">
       <el-button size="mini" type="primary" @click="saveHandler"
@@ -136,7 +136,7 @@ export default {
 <style lang="scss">
 .c-Importphoto {
   .el-dialog {
-    height: 380px;
+    height: 410px;
   }
   label {
     margin-right: 20px;

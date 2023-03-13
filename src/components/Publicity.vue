@@ -40,7 +40,7 @@ export default {
         if (result[item] && config[item] > 0) {
           message.push({
             key: index + 1,
-            title: `${label}Draw result:`,
+            title: `${label} Winner:`,
             value: `${
               result[item].length > 0 ? result[item].join('、') : 'Not drawn'
             }`

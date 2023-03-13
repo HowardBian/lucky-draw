@@ -449,7 +449,7 @@ export default {
   }
   .itemres {
     background: #fff;
-    width: 160px;
+    width: auto;
     height: 160px;
     border-radius: 4px;
     border: 1px solid #ccc;

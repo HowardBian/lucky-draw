@@ -18,7 +18,7 @@
       class="setwat-dialog"
       width="400px"
     >
-      <el-form ref="form" :model="form" label-width="80px" size="mini">
+      <el-form ref="form" :model="form" label-width="110px" size="mini">
         <el-form-item label="Draw prize">
           <el-select v-model="form.category" placeholder="Please select the current prize">
             <el-option
@@ -32,14 +32,14 @@
 
         <el-form-item label=" " v-if="form.category">
           <span>
-            共&nbsp;
+            Totoal of&nbsp;
             <span class="colorred">{{ config[form.category] }}</span>
-            &nbsp;名
+            &nbsp;prize:
           </span>
           <span :style="{ marginLeft: '20px' }">
-            剩余&nbsp;
+            &nbsp;
             <span class="colorred">{{ remain }}</span>
-            &nbsp;名
+            &nbsp;prize left
           </span>
         </el-form-item>
 
@@ -122,7 +122,7 @@
           </el-radio-group>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" @click="resetConfig">Confirm reset</el-button>
+          <el-button type="primary" @click="resetConfig">Confirm</el-button>
           <el-button @click="showRemoveoptions = false">Cancel</el-button>
         </el-form-item>
       </el-form>

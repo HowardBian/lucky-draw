@@ -7,6 +7,7 @@
       arrow="never"
       :interval="3000"
     >
+      <img src="../assets/logo.png" style="padding-top: 3px; padding-left: 10px;">
       <el-carousel-item v-for="item in message" :key="item.key">
         <div class="item" :class="{ actiname: item.key === 0 }">
           <span v-if="item.title" class="title"> {{ item.title }}</span>
@@ -62,7 +63,7 @@ export default {
   position: relative;
   overflow: hidden;
   .el-carousel {
-    width: 80vw;
+    width: 101vw;
     margin: 0 auto;
   }
   .item {

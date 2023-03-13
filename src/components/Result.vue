@@ -24,7 +24,7 @@
         }
       "
     >
-      <span class="name">
+      <span class="name" style="width: 20%;">
         {{ item.name }}
       </span>
       <span class="value">
@@ -127,7 +127,7 @@ export default {
     }
     .card {
       display: inline-block;
-      // width: 40px;
+      width: 80px;
       padding: 0 5px;
       line-height: 30px;
       text-align: center;

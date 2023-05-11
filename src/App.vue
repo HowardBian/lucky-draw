@@ -448,13 +448,12 @@ export default {
     flex-wrap: wrap;
   }
   .itemres {
-    background: #fff;
     width: auto;
+    min-width: 160px;
     height: 160px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
     line-height: 160px;
     font-weight: bold;
+    color: #fff;
     margin-right: 20px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -472,7 +471,7 @@ export default {
       width: 30px;
       height: 22px;
       line-height: 22px;
-      background-color: #fff;
+      color: #fff;
       position: absolute;
       bottom: 0;
       left: 0;
